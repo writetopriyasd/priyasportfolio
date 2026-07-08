@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ExternalLink, Check } from "lucide-react";
-import { getProject, projects } from "../lib/projects";
+import { getProject, projects, type Project } from "../lib/projects";
 import { FadeIn } from "../components/fade-in";
 import archDiagram from "../assets/ai-job-agent-architecture.jpg";
 
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/projects/$slug")({
 });
 
 function ProjectDetail() {
-  const { project } = Route.useLoaderData();
+  const { project } = Route.useLoaderData() as { project: Project };
   const others = projects.filter((p) => p.slug !== project.slug);
 
   return (
