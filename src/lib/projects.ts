@@ -23,7 +23,7 @@ export const projects: Project[] = [
     summary:
       "Device-agnostic healthcare AI agent that monitors daily routines, offers medication reminders, wellness check-ins, conversational support, and emergency caregiver notifications.",
     tags: ["AI", "Healthcare"],
-    liveUrl: "https://bit.ly/4oRQCOZ",
+    liveUrl: "https://bit.ly/4gW4AgQ",
     problem:
       "Older adults living independently often miss medications, skip wellness routines, and lack a low-friction way to escalate to caregivers when something feels off.",
     solution:
