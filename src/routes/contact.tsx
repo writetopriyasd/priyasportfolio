@@ -87,7 +87,28 @@ function ContactPage() {
               </div>
             </a>
           ))}
+          <div className="card-elevated p-5 flex items-center justify-center sm:col-span-2">
+            <div
+              className="badge-base LI-profile-badge"
+              data-locale="en_US"
+              data-size="medium"
+              data-theme="dark"
+              data-type="VERTICAL"
+              data-vanity="priyasd"
+              data-version="v1"
+            >
+              <a
+                className="badge-base__link LI-simple-link"
+                href="https://www.linkedin.com/in/priyasd?trk=profile-badge"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Priya D.
+              </a>
+            </div>
+          </div>
         </div>
+
       </FadeIn>
 
       <FadeIn delay={0.2}>
