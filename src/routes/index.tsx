@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles, HeartPulse, Workflow, LineChart } from "lucide-react";
 import { motion } from "motion/react";
-import portrait from "../assets/priya-portrait.jpg";
+import portrait from "../assets/priya-portrait.jpg.asset.json";
 import { projects } from "../lib/projects";
 import { FadeIn } from "../components/fade-in";
 
@@ -131,7 +131,7 @@ function Home() {
             />
             <div className="relative rounded-[2rem] overflow-hidden border border-border bg-card shadow-[0_30px_80px_-30px_rgba(17,24,39,0.35)]">
               <img
-                src={portrait}
+                src={portrait.url}
                 alt="Priya D’Souza"
                 width={1024}
                 height={1280}
