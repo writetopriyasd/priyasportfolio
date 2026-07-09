@@ -1,8 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState, useEffect } from "react";
-import { Mail, Github, Phone, Download, Send, Check } from "lucide-react";
+import { useState } from "react";
+import { Mail, Linkedin, Github, Phone, Download, Send, Check } from "lucide-react";
 import { FadeIn } from "../components/fade-in";
-
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -27,33 +26,14 @@ export const Route = createFileRoute("/contact")({
 
 const channels = [
   { icon: Mail, label: "Email", value: "priya.dsouza0623@gmail.com", href: "mailto:priya.dsouza0623@gmail.com" },
+  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/priyasd", href: "https://linkedin.com/in/priyasd" },
   { icon: Github, label: "GitHub", value: "github.com/writetopriyasd", href: "https://github.com/writetopriyasd" },
   { icon: Phone, label: "Phone (US)", value: "+1 (909) 255-1786", href: "tel:+19092551786" },
 ];
 
-
 function ContactPage() {
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-
-  useEffect(() => {
-    const existing = document.querySelector<HTMLScriptElement>(
-      'script[src="https://platform.linkedin.com/badges/js/profile.js"]',
-    );
-    if (existing) {
-      // Re-trigger badge render on client-side navigation
-      const w = window as unknown as { LIRenderAll?: () => void };
-      w.LIRenderAll?.();
-      return;
-    }
-    const script = document.createElement("script");
-    script.src = "https://platform.linkedin.com/badges/js/profile.js";
-    script.async = true;
-    script.defer = true;
-    script.type = "text/javascript";
-    document.body.appendChild(script);
-  }, []);
-
 
   return (
     <div className="container-page pt-14 pb-8">
@@ -87,28 +67,7 @@ function ContactPage() {
               </div>
             </a>
           ))}
-          <div className="card-elevated p-5 flex items-center justify-center sm:col-span-2">
-            <div
-              className="badge-base LI-profile-badge"
-              data-locale="en_US"
-              data-size="medium"
-              data-theme="dark"
-              data-type="VERTICAL"
-              data-vanity="priyasd"
-              data-version="v1"
-            >
-              <a
-                className="badge-base__link LI-simple-link"
-                href="https://www.linkedin.com/in/priyasd?trk=profile-badge"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Priya D.
-              </a>
-            </div>
-          </div>
         </div>
-
       </FadeIn>
 
       <FadeIn delay={0.2}>
