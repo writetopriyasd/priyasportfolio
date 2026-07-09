@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
-import { Mail, Linkedin, Github, Phone, Download, Send, Check } from "lucide-react";
+import { Mail, Github, Phone, Download, Send, Check } from "lucide-react";
 import { FadeIn } from "../components/fade-in";
 
 
