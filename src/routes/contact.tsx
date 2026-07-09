@@ -27,10 +27,10 @@ export const Route = createFileRoute("/contact")({
 
 const channels = [
   { icon: Mail, label: "Email", value: "priya.dsouza0623@gmail.com", href: "mailto:priya.dsouza0623@gmail.com" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/priyasd", href: "https://linkedin.com/in/priyasd" },
   { icon: Github, label: "GitHub", value: "github.com/writetopriyasd", href: "https://github.com/writetopriyasd" },
   { icon: Phone, label: "Phone (US)", value: "+1 (909) 255-1786", href: "tel:+19092551786" },
 ];
+
 
 function ContactPage() {
   const [sent, setSent] = useState(false);
