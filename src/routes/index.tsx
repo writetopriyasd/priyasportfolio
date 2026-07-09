@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles, HeartPulse, Workflow, LineChart } from "lucide-react";
 import { motion } from "motion/react";
-import { useEffect } from "react";
 import { projects } from "../lib/projects";
 import { FadeIn } from "../components/fade-in";
+import portrait from "../assets/priya-portrait.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -36,17 +36,6 @@ const focusAreas = [
 ];
 
 function Home() {
-  useEffect(() => {
-    const existing = document.querySelector('script[src="https://platform.linkedin.com/badges/js/profile.js"]');
-    if (existing) return;
-    const script = document.createElement("script");
-    script.src = "https://platform.linkedin.com/badges/js/profile.js";
-    script.async = true;
-    script.defer = true;
-    script.type = "text/javascript";
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <>
       {/* Hero */}
@@ -140,23 +129,14 @@ function Home() {
                   "linear-gradient(135deg, rgba(79,70,229,0.35), rgba(99,102,241,0.15) 60%, transparent)",
               }}
             />
-            <div className="relative rounded-[2rem] overflow-hidden border border-border bg-card shadow-[0_30px_80px_-30px_rgba(17,24,39,0.35)] p-6 flex items-center justify-center min-h-[360px]">
-              <div
-                className="badge-base LI-profile-badge"
-                data-locale="en_US"
-                data-size="medium"
-                data-theme="dark"
-                data-type="VERTICAL"
-                data-vanity="priyasd"
-                data-version="v1"
-              >
-                <a
-                  className="badge-base__link LI-simple-link"
-                  href="https://www.linkedin.com/in/priyasd?trk=profile-badge"
-                >
-                  Priya D.
-                </a>
-              </div>
+            <div className="relative rounded-[2rem] overflow-hidden border border-border bg-card shadow-[0_30px_80px_-30px_rgba(17,24,39,0.35)]">
+              <img
+                src={portrait.url}
+                alt="Priya D’Souza — AI Product Manager"
+                className="relative z-10 w-full h-auto object-cover"
+                loading="eager"
+                decoding="async"
+              />
             </div>
           </motion.div>
         </div>
