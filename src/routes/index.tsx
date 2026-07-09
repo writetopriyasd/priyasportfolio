@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles, HeartPulse, Workflow, LineChart } from "lucide-react";
 import { motion } from "motion/react";
-import portrait from "../assets/priya-portrait.jpg";
+import portrait from "../assets/priya-portrait.jpg.asset.json";
 import { projects } from "../lib/projects";
 import { FadeIn } from "../components/fade-in";
 
