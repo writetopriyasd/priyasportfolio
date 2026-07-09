@@ -36,6 +36,25 @@ function ContactPage() {
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
+  useEffect(() => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[src="https://platform.linkedin.com/badges/js/profile.js"]',
+    );
+    if (existing) {
+      // Re-trigger badge render on client-side navigation
+      const w = window as unknown as { LIRenderAll?: () => void };
+      w.LIRenderAll?.();
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+    script.type = "text/javascript";
+    document.body.appendChild(script);
+  }, []);
+
+
   return (
     <div className="container-page pt-14 pb-8">
       <FadeIn>
