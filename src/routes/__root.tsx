@@ -11,7 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import { GA_MEASUREMENT_ID } from "../lib/analytics";
+
 import { SiteNav } from "../components/site-nav";
 import { SiteFooter } from "../components/site-footer";
 import { MobileCTA } from "../components/mobile-cta";
