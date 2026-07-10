@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
         content:
           "AI Product Manager with 7+ years shipping enterprise AI, workflow automation, and healthcare platforms. Explore case studies, process, and experience.",
       },
-      { property: "og:title", content: "Priya D’Souza — AI Product Manager" },
+      { property: "og:title", content: "Priya D’Souza — AI Product Manager Portfolio" },
       { property: "og:url", content: "/" },
     ],
   }),

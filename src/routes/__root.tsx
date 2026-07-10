@@ -84,24 +84,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "AI Product Manager building enterprise AI, workflow automation, and healthcare platforms. 7+ years shipping products across Healthcare and Financial Services.",
+          "AI Product Manager with 7+ years shipping enterprise AI, workflow automation, and healthcare platforms. Explore case studies, process, and experience.",
       },
       { name: "author", content: "Priya D’Souza" },
       { property: "og:site_name", content: "Priya D’Souza" },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "Priya D’Souza — AI Product Manager" },
+      { property: "og:title", content: "Priya D’Souza — AI Product Manager Portfolio" },
       {
         property: "og:description",
         content:
-          "AI PM portfolio: enterprise AI, workflow automation, healthcare platforms, and intelligent user experiences.",
+          "AI Product Manager with 7+ years shipping enterprise AI, workflow automation, and healthcare platforms. Explore case studies, process, and experience.",
       },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Priya D’Souza — AI Product Manager" },
+      { name: "twitter:title", content: "Priya D’Souza — AI Product Manager Portfolio" },
       {
         name: "twitter:description",
         content:
-          "AI PM portfolio: enterprise AI, workflow automation, healthcare platforms, and intelligent user experiences.",
+          "AI Product Manager with 7+ years shipping enterprise AI, workflow automation, and healthcare platforms. Explore case studies, process, and experience.",
       },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d4dead6-55fe-45c3-97fc-4c2ecfb7b194/id-preview-b17311dd--b05f6e7c-c9c4-4d57-87d8-017f65311c9b.lovable.app-1783607451006.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d4dead6-55fe-45c3-97fc-4c2ecfb7b194/id-preview-b17311dd--b05f6e7c-c9c4-4d57-87d8-017f65311c9b.lovable.app-1783607451006.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
