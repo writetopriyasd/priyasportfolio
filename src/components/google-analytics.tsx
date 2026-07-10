@@ -16,13 +16,12 @@ export function GoogleAnalyticsTracker() {
   useEffect(() => {
     if (typeof window === "undefined" || typeof window.gtag !== "function") return;
 
-    const unsubscribe = router.subscribe("onResolved", () => {
-      const location = router.state.location;
-      if (!location) return;
+    const unsubscribe = router.subscribe("onResolved", ({ toLocation, pathChanged }) => {
+      if (!pathChanged) return;
 
       window.gtag("event", "page_view", {
-        page_location: window.location.href,
-        page_path: location.pathname,
+        page_location: `${window.location.origin}${toLocation.href}`,
+        page_path: toLocation.pathname,
         page_title: document.title,
         send_to: GA_MEASUREMENT_ID,
       });
