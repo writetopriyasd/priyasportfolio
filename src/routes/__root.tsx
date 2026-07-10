@@ -132,24 +132,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           })();
         `,
       },
-      ...(GA_MEASUREMENT_ID && !GA_MEASUREMENT_ID.includes("XXXXXXXXXX")
-        ? [
-            {
-              type: "text/javascript" as const,
-              innerHTML: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
-              `,
-            },
-            {
-              type: "text/javascript" as const,
-              async: true,
-              src: `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`,
-            },
-          ]
-        : []),
     ],
   }),
   shellComponent: RootShell,
