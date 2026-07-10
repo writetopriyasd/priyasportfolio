@@ -185,6 +185,7 @@ function RootComponent() {
         <SiteFooter />
         <MobileCTA />
       </div>
+      <GoogleAnalyticsTracker />
     </QueryClientProvider>
   );
 }
