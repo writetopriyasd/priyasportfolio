@@ -8,6 +8,10 @@
   Available for Global Opportunities · US Citizen
 </p>
 
+<p align="center">
+  Actively exploring <b>AI Product Manager</b> roles — remote or global. Let’s build something together.
+</p>
+
 
 ## Start Here — This GitHub Is Just a Pointer
 
@@ -31,6 +35,3 @@ If you prefer direct contact:
 - LinkedIn: [linkedin.com/in/priyasd](https://linkedin.com/in/priyasd)  
 - GitHub: [github.com/writetopriyasd](https://github.com/writetopriyasd)  
 
-<p align="center">
-  Actively exploring <b>AI Product Manager</b> roles — remote or global. Let’s build something together.
-</p>
