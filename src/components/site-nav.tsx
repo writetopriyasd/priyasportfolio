@@ -25,10 +25,9 @@ export function SiteNav() {
 
   useEffect(() => {
     const stored = typeof window !== "undefined" && localStorage.getItem("theme");
-    if (stored === "dark") {
-      document.documentElement.classList.add("dark");
-      setDark(true);
-    }
+    const isDark = stored !== "light";
+    document.documentElement.classList.toggle("dark", isDark);
+    setDark(isDark);
   }, []);
 
   const toggleTheme = () => {
