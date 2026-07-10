@@ -1,1 +1,1 @@
-export const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+export const GA_MEASUREMENT_ID = "G-WSSSKQF10G";
