@@ -5,11 +5,7 @@
 </p>
 
 <p align="center">
-  Available for Global Opportunities · US Citizen
-</p>
-
-<p align="center">
-  Actively exploring <b>AI Product Manager</b> roles — remote or global. Let’s build something together.
+  Available for Global Opportunities · US Citizen — remote or global. 
 </p>
 
 
