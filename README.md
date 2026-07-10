@@ -10,65 +10,65 @@
 
 ---
 
-## About Me
+## Start Here — This GitHub Is Just a Pointer
+
+If you’re viewing this on GitHub, this profile is mainly a mirror and lightweight snapshot.  
+For the most accurate and up-to-date view of my work, please use my interactive portfolio site. [page:1]
+
+<p align="center">
+  🔗 <b>Visit my portfolio:</b> <a href="https://bit.ly/4vGQFPH">https://bit.ly/4vGQFPH</a>
+</p>
+
+<p align="center">
+  🧭 <i>All roads lead there — projects, process, and experience are best explored on the site.</i>
+</p>
+
+---
+
+## Quick Snapshot
 
 I’m an AI Product Manager with 7+ years delivering enterprise SaaS across US Healthcare and Financial Services. [page:1]  
 I lead AI-assisted discovery, PRD generation, prototyping, and agentic workflows that move products from a Miro board to production. [page:1]
 
----
+**Focus areas** [page:1]  
+- Enterprise AI – GenAI, agentic workflows, RAG, LLM evaluation.  
+- Healthcare – RCM, RPM, EMR/EHR, HIPAA-aware product design.  
+- Workflow Automation – n8n, LCNC, human-in-the-loop systems.  
+- Data Products – SQL, Power BI, dashboards, decision support.  
 
-## Where I Do My Best Work
-
-- **Enterprise AI** – GenAI, agentic workflows, RAG, LLM evaluation. [page:1]
-- **Healthcare** – RCM, RPM, EMR/EHR, HIPAA-aware product design. [page:1]
-- **Workflow Automation** – n8n, LCNC, human-in-the-loop systems. [page:1]
-- **Data Products** – SQL, Power BI, dashboards, decision support. [page:1]
-
----
-
-## Impact Snapshot
-
-- **7+** years in product. [page:1]  
-- **95+** healthcare payer orgs supported. [page:1]  
-- **70%** faster delivery turnaround. [page:1]  
-- **80%** manual effort reduced via AI workflows. [page:1]
+**Impact** [page:1]  
+- 7+ years in product  
+- 95+ healthcare payer orgs supported  
+- 70% faster delivery turnaround  
+- 80% manual effort reduced via AI workflows  
 
 ---
 
-## Selected Projects
+## What You’ll See On The Portfolio
 
-### Serenity – AI Wellness Companion (Healthcare AI) [page:1]
-Device-agnostic healthcare AI agent that monitors daily routines, offers medication reminders, wellness check-ins, conversational support, and emergency caregiver notifications. [page:1]  
-➡️ [Read case study](https://priyasportfolio.lovable.app/projects/serenity) [page:1]
+Once you click through to the site, you’ll find: [page:1]  
 
-### Wealth Compass – Investment Insights Dashboard (Fintech Analytics) [page:1]
-FinPulse AI: live portfolio insights, KPI dashboards, market analytics, and decision-support visualizations for SIP-guided investing. [page:1]  
-➡️ [Read case study](https://priyasportfolio.lovable.app/projects/wealth-compass) [page:1]
+- **Projects**  
+  - Serenity — AI wellness companion for geriatric care.  
+  - Wealth Compass — AI-enabled investment insights dashboard.  
+  - AI Job Agent — Docker + n8n workflow for candidate-job matching and outreach.  
 
-### AI Job Agent – Automation Workflow (Docker + n8n) [page:1]
-Multi-portal job scraping, Gemini-based resume matching, Perplexity enrichment, and Gmail notifications to reduce manual effort across the candidate workflow. [page:1]  
-➡️ [Read case study](https://priyasportfolio.lovable.app/projects/ai-job-agent) [page:1]
+- **Process**  
+  A product lifecycle designed for AI-native teams, from customer problem to metrics.  
 
----
+- **Experience & About**  
+  Roles, domains, and how I approach building AI products in healthcare and financial services.  
 
-## How I Work
-
-I use a product lifecycle designed for AI-native teams, from customer problem to metrics, with a repeatable loop that ships enterprise AI products. [page:1]  
-You can see the process I use end-to-end on my portfolio site. [page:1]  
-
-➡️ [See the process](https://priyasportfolio.lovable.app/process) [page:1]
+All of this is structured as case studies, flows, and artifacts rather than code-only repos. [page:1]
 
 ---
 
-## Links & Contact
+## Contact & Links
 
-- 🌐 Portfolio: [priyasportfolio.lovable.app](https://priyasportfolio.lovable.app/) [page:1]  
-- 📄 Resume: [Download](https://priyasportfolio.lovable.app/resume.pdf) [page:1]  
-- ✉️ Email: [priya.dsouza0623@gmail.com](mailto:priya.dsouza0623@gmail.com) [page:1]  
-- 💼 LinkedIn: [linkedin.com/in/priyasd](https://linkedin.com/in/priyasd) [page:1]  
-- 🧑‍💻 GitHub: [github.com/writetopriyasd](https://github.com/writetopriyasd) [page:1]  
-
----
+If you prefer direct contact: [page:1]  
+- Email: [priya.dsouza0623@gmail.com](mailto:priya.dsouza0623@gmail.com)  
+- LinkedIn: [linkedin.com/in/priyasd](https://linkedin.com/in/priyasd)  
+- GitHub: [github.com/writetopriyasd](https://github.com/writetopriyasd)  
 
 <p align="center">
   Actively exploring <b>AI Product Manager</b> roles — remote or global. Let’s build something together.
