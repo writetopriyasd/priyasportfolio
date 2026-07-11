@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Linkedin, Github, Phone, Download, Send, Check } from "lucide-react";
 import { FadeIn } from "../components/fade-in";
+import { downloadResume } from "../lib/download-resume";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({

@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, Download, Moon, Sun } from "lucide-react";
+import { downloadResume } from "../lib/download-resume";
 
 const links = [
   { to: "/", label: "Home" },

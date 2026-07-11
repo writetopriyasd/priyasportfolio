@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { projects } from "../lib/projects";
 import { FadeIn } from "../components/fade-in";
 import portrait from "../assets/priya-portrait.jpg.asset.json";
+import { downloadResume } from "../lib/download-resume";
 
 export const Route = createFileRoute("/")({
   head: () => ({
