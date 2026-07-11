@@ -1,4 +1,6 @@
-export const RESUME_URL = "https://bit.ly/priya-dsouza-cv";
+import resumeAsset from "../assets/priya-resume.pdf.asset.json";
+
+export const RESUME_URL = resumeAsset.url;
 export const RESUME_FILENAME = "Priya-DSouza-Resume.pdf";
 
 export async function downloadResume(
@@ -18,7 +20,6 @@ export async function downloadResume(
     a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   } catch {
-    // Fallback: open in new tab if CORS blocks fetch
     window.open(RESUME_URL, "_blank", "noreferrer");
   }
 }
