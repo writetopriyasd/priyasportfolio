@@ -107,7 +107,7 @@ function Home() {
                 View Projects <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf"
+                href="/__l5e/assets-v1/65d6c390-0f26-4a90-bf1b-bc1cf78f6964/Priya-DSouza-Resume.docx"
                 onClick={downloadResume}
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-full border border-border bg-card text-foreground text-sm font-semibold hover:border-accent/40 hover:text-accent transition cursor-pointer"
               >
@@ -263,7 +263,7 @@ function Home() {
                 Get in touch <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf"
+                href="/__l5e/assets-v1/65d6c390-0f26-4a90-bf1b-bc1cf78f6964/Priya-DSouza-Resume.docx"
                 onClick={downloadResume}
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-full border border-white/20 text-primary-foreground text-sm font-semibold hover:bg-white/10 transition cursor-pointer"
               >
