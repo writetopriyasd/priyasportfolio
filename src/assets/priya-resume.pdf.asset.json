@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df",
+  "asset_id": "65d6c390-0f26-4a90-bf1b-bc1cf78f6964",
   "project_id": "b05f6e7c-c9c4-4d57-87d8-017f65311c9b",
-  "url": "/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf",
-  "r2_key": "a/v1/b05f6e7c-c9c4-4d57-87d8-017f65311c9b/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf",
-  "original_filename": "Priya-DSouza-Resume.pdf",
-  "size": 841102,
-  "content_type": "application/pdf",
-  "created_at": "2026-07-11T06:00:01Z"
+  "url": "/__l5e/assets-v1/65d6c390-0f26-4a90-bf1b-bc1cf78f6964/Priya-DSouza-Resume.docx",
+  "r2_key": "a/v1/b05f6e7c-c9c4-4d57-87d8-017f65311c9b/65d6c390-0f26-4a90-bf1b-bc1cf78f6964/Priya-DSouza-Resume.docx",
+  "original_filename": "Priya-DSouza-Resume.docx",
+  "size": 287130,
+  "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "created_at": "2026-07-11T06:12:03Z"
 }

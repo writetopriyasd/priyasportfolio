@@ -1,7 +1,7 @@
 import resumeAsset from "../assets/priya-resume.pdf.asset.json";
 
 export const RESUME_URL = resumeAsset.url;
-export const RESUME_FILENAME = "Priya-DSouza-Resume.pdf";
+export const RESUME_FILENAME = "Priya-DSouza-Resume.docx";
 
 export async function downloadResume(
   e?: { preventDefault: () => void }
