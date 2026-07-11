@@ -115,7 +115,7 @@ function ContactPage() {
           </label>
           <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
             <a
-              href="/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf"
+              href="/__l5e/assets-v1/65d6c390-0f26-4a90-bf1b-bc1cf78f6964/Priya-DSouza-Resume.docx"
               onClick={downloadResume}
               className="inline-flex items-center gap-2 h-11 px-5 rounded-full border border-border bg-card text-foreground text-sm font-semibold hover:border-accent/40 hover:text-accent transition cursor-pointer"
             >
