@@ -73,7 +73,7 @@ export function SiteNav() {
             {dark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </button>
           <a
-            href="https://bit.ly/priya-dsouza-cv"
+            href="/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf"
             onClick={downloadResume}
             className="hidden sm:inline-flex items-center gap-2 h-9 px-4 rounded-full bg-accent text-accent-foreground text-sm font-medium hover:bg-[var(--accent-hover)] transition shadow-[0_6px_20px_-8px_rgba(79,70,229,0.6)] cursor-pointer"
           >
@@ -105,7 +105,7 @@ export function SiteNav() {
             ))}
             <li className="pt-2">
               <a
-                href="https://bit.ly/priya-dsouza-cv"
+                href="/__l5e/assets-v1/6b8a2e9c-03ac-4643-b0e6-ebbb4d4905df/Priya-DSouza-Resume.pdf"
                 onClick={(e) => { downloadResume(e); setOpen(false); }}
                 className="inline-flex items-center gap-2 h-10 px-4 rounded-full bg-accent text-accent-foreground text-sm font-medium cursor-pointer"
               >
