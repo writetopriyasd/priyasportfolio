@@ -72,7 +72,7 @@ export function SiteNav() {
             {dark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </button>
           <a
-            href="/resume.pdf"
+            href="https://bit.ly/priya-dsouza-cv" target="_blank" rel="noreferrer"
             download
             className="hidden sm:inline-flex items-center gap-2 h-9 px-4 rounded-full bg-accent text-accent-foreground text-sm font-medium hover:bg-[var(--accent-hover)] transition shadow-[0_6px_20px_-8px_rgba(79,70,229,0.6)]"
           >
@@ -104,7 +104,7 @@ export function SiteNav() {
             ))}
             <li className="pt-2">
               <a
-                href="/resume.pdf"
+                href="https://bit.ly/priya-dsouza-cv" target="_blank" rel="noreferrer"
                 download
                 className="inline-flex items-center gap-2 h-10 px-4 rounded-full bg-accent text-accent-foreground text-sm font-medium"
               >

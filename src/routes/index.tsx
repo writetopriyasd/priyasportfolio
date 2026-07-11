@@ -106,7 +106,7 @@ function Home() {
                 View Projects <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="/resume.pdf"
+                href="https://bit.ly/priya-dsouza-cv" target="_blank" rel="noreferrer"
                 download
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-full border border-border bg-card text-foreground text-sm font-semibold hover:border-accent/40 hover:text-accent transition"
               >
@@ -262,7 +262,7 @@ function Home() {
                 Get in touch <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="/resume.pdf"
+                href="https://bit.ly/priya-dsouza-cv" target="_blank" rel="noreferrer"
                 download
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-full border border-white/20 text-primary-foreground text-sm font-semibold hover:bg-white/10 transition"
               >
